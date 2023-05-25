@@ -1,7 +1,7 @@
 SELECT * 
 FROM ProjectPortfolio..CovidDeaths$
 WHERE Continent is not null
-
+ORDER BY 3,4
 
 SELECT *
 FROM ProjectPortfolio..CovidVaccinations$
