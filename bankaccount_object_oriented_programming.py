@@ -34,7 +34,7 @@ class BankAccount:
           print("\nWithdraw complete.")
           self.getBalance()
       except BalanceException as error :
-          print({f'\nWithdraw interrupted :{error}'})
+          print(f'\nWithdraw interrupted :{error}')
   def transfer(self,amount,account):
       try :
         print('\n**********\n\nBeginning Transfer..')
